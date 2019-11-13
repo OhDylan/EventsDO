@@ -1,0 +1,66 @@
+.main-navigation{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3.5rem;
+    background: rgb(12, 178, 184);;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.main-navigation_logo h1{
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.main-navigation_items {
+    margin: 0 0 0 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.main-navigation_items ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.main-navigation_items li{
+    margin: 0 1rem;
+    position: relative;
+}
+
+.main-navigation_items a,
+.main-navigation_items button{
+    text-decoration: none;
+    color: white;
+    padding: 0.25rem 0.7rem;
+    border: none;
+    font:inherit;
+    background: transparent;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.main-navigation_items a:hover,
+.main-navigation_items a:active,
+/*css class acive for navlink who is selected */
+.main-navigation_items a.active,
+.main-navigation_items button:hover,
+.main-navigation_items button:active{
+    color: rgb(12, 178, 184);
+    border: white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 0.4rem 0.7rem;
+
+}
